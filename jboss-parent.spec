@@ -1,6 +1,6 @@
 Name:                 jboss-parent
 Version:              6
-Release:              11%{?dist}
+Release:              12%{?dist}
 Summary:              JBoss Parent POM
 Group:                Development/Libraries
 License:              LGPLv2+
@@ -39,6 +39,9 @@ The Project Object Model files for JBoss packages.
 %doc README.md
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 6-12
+- Mass rebuild 2013-12-27
+
 * Mon Aug 26 2013 Michal Srb <msrb@redhat.com> - 6-11
 - Migrate away from mvn-rpmbuild (Resolves: #997506)
 
